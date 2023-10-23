@@ -34,6 +34,8 @@ public class Exercice2 {
         System.out.println("2 : celibataire");
         situationFamilial = scanner.nextInt();        
         
+        scanner.close();
+        
         if(situationFamilial == 1){          
             if(nombreEnfant <= 2){
                 nbParts = nombreEnfant/2+2;
